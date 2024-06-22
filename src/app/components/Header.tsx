@@ -13,12 +13,13 @@ export const Header = () => {
           <Link href="/" className="linky">
             <Image
               src="/Myrep-Logo.png"
-              alt="Logo Bnetfit"
+              alt="Logo MyRepublic"
               width={180}
               height={55}
               className="py-4"
             />
           </Link>
+
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <Link
@@ -54,7 +55,7 @@ export const Header = () => {
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <Link
-                href="https://api.whatsapp.com/send?phone=6281314160043&text=Halo Bnetfit, saya mau bertanya tentang layanan yang tersedia. Terimakasih."
+                href="https://api.whatsapp.com/send?phone=6285179907602&text=Halo MyRepublict, saya mau bertanya tentang layanan yang tersedia. Terimakasih."
                 className="inline-flex items-center justify-center h-10 px-6 font-bold tracking-wide text-white transition duration-200 rounded-md shadow-md bg-pink-600 focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
@@ -96,11 +97,11 @@ export const Header = () => {
                         onClick={() => setIsMenuOpen(false)}
                       >
                         <Image
-                          src="/bnet.webp"
-                          alt="logo asisten"
-                          width={94}
-                          height={29}
-                          className=""
+                          src="/Myrep-Logo.png"
+                          alt="Logo Myrepublic"
+                          width={180}
+                          height={55}
+                          className="py-4"
                         />
                       </Link>
                     </div>
@@ -158,8 +159,8 @@ export const Header = () => {
 
                       <li>
                         <Link
-                          href="https://api.whatsapp.com/send?phone=6281314160043&text=Halo Bnetfit, saya mau bertanya tentang layanan yang tersedia. Terimakasih."
-                          className="inline-flex items-center justify-center w-full h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-gradient-to-br from-gray-900 to-blue-900 focus:shadow-outline focus:outline-none"
+                          href="https://api.whatsapp.com/send?phone=6281314160043&text=Halo MyRepublic, saya mau bertanya tentang layanan yang tersedia. Terimakasih."
+                          className="inline-flex items-center justify-center w-full h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-pink-700 focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
                         >

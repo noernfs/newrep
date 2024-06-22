@@ -5,8 +5,8 @@ export default function Howto() {
   return (
     <>
       <div className="p-4 max-w-xl mx-auto dark:bg-gray-800">
-        <h2 className="font-heading dark:text-gray-100 mb-8 text-3xl font-bold lg:text-4xl">
-          Sed ac magna sit amet risus tristique interdum. hac.
+        <h2 className="font-heading dark:text-gray-100 mb-8 text-center text-3xl font-bold lg:text-4xl">
+          Proses Pendaftaran MyRepublic
         </h2>
 
         <div className="flex">
@@ -38,10 +38,9 @@ export default function Howto() {
               Step 1
             </p>
             <p className="text-gray-600 dark:text-slate-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed
-              porttitor est nibh at nulla. Praesent placerat enim ut ex
-              tincidunt vehicula. Fusce sit amet dui tellus.
+              Pengecekan area dengan melampirkan alamat lengkap dan share lokasi
+              melalui chat agent dilanjutkan dengan rekomendasi pemilihan paket
+              berdasarkan dengan kebutuhan dan preferensi pelanggan.
             </p>
           </div>
         </div>
@@ -75,9 +74,8 @@ export default function Howto() {
               Step 2
             </p>
             <p className="text-gray-600 dark:text-slate-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed
-              porttitor est nibh at nulla.
+              Penjadwalan pemasangan bebas biaya yang dapat disesuai berdasarkan
+              ketersediaan waktu pelanggan.
             </p>
           </div>
         </div>
@@ -111,9 +109,9 @@ export default function Howto() {
               Step 3
             </p>
             <p className="text-gray-600 dark:text-slate-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed
-              porttitor est nibh at nulla.
+              Pembayaran pertama setelah pemasangan sesuai dengan persetujuan
+              pengambilan paket melalui portal e-banking pembayaran, indomaret,
+              atau media remi lainnya.
             </p>
           </div>
         </div>
@@ -141,7 +139,7 @@ export default function Howto() {
           </div>
           <div className="pt-1 ">
             <p className="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">
-              Ready!
+              Internet telah siap digunakan!
             </p>
           </div>
         </div>
