@@ -1,39 +1,56 @@
-import Link from "next/link";
+import React from "react";
+import Image from "next/image";
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <>
-      <footer className="p-0">
-        <div className=" bg-gray-900">
-          <div className="div1foot">
-            <div className="text-center pt-10">
-              <h3 className="h3foot">
-                Revolusi internet <span className="text-blue-900">Bnetfit</span>
-              </h3>
-              <p>
-                {" "}
-                <span className="text-gray-100">
-                  Pelopor Perubahan Progresif Jaringan Internet
-                </span>
-              </p>
+    <div className="bg-white-300 pt-44 pb-24">
+      <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16">
+        <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
+          <Image
+            src="/Myrep-logo.png"
+            width={180}
+            height={55}
+            alt="Logo MyRepublic"
+          />
+          <p className="mb-4">
+            <strong className="font-medium">
+              Revolusi Internet MyRepublic
+            </strong>{" "}
+            - Pelopor perubahan progresif jaringan internet
+          </p>
+          <div className="flex w-full mt-2 mb-8 -mx-2">
+            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+              <Image
+                src="/facebook.svg"
+                width={20}
+                height={20}
+                alt="Logo Facebook"
+              />
             </div>
-            <div className="div2foot">
-              &copy; 2023 Bnetfit Corp. All rights reserved.
-              <div className="order-1 md:order-2">
-                <Link href="/profil" className="px-2">
-                  Profil
-                </Link>
-                <Link href="/layanan" className="px-2 border-l">
-                  Layanan
-                </Link>
-                <Link href="/tips" className="px-2 border-l">
-                  Tips Wifi
-                </Link>
-              </div>
+            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+              <Image
+                src="/twitter.svg"
+                width={20}
+                height={20}
+                alt="Logo Facebook"
+              />
+            </div>
+            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+              <Image
+                src="/instagram.svg"
+                width={20}
+                height={20}
+                alt="Logo Facebook"
+              />
             </div>
           </div>
+          <p className="text-gray-400">
+            ©{new Date().getFullYear()} - MyRepublic
+          </p>
         </div>
-      </footer>
-    </>
+      </div>
+    </div>
   );
-}
+};
+
+export default Footer;

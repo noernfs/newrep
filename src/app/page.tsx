@@ -7,7 +7,7 @@ import About from "./components/About";
 import Noted from "./components/Noted";
 import Howto from "./components/Howto";
 import { Lamp } from "./ui/Lamp";
-import { GoogleGeminiEffect } from "./ui/google-gemini-effect";
+import { GoogleGeminiEffectDemo } from "./components/Connect";
 import { MotionValue } from "framer-motion/dom";
 import { VortexDemo } from "./components/VortexComp";
 
@@ -17,6 +17,7 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
+      <GoogleGeminiEffectDemo />
       <Feature />
       <VortexDemo />
 
