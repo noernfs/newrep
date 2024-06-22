@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16">
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <Image
-            src="/Myrep-logo.png"
+            src="/Myrep-Logo.png"
             width={180}
             height={55}
             alt="Logo MyRepublic"

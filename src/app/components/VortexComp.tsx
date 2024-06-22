@@ -13,8 +13,8 @@ export function VortexDemo() {
           Prioritas Pendaftaran Online
         </h2>
         <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
-          Pendaftaran mudah, cepat, dan praktis melalui fasilitas online melalui
-          agent call center MyRepublic Resmi.
+          Pendaftaran mudah, cepat, dan praktis melalui fasilitas online agent
+          call center MyRepublic.
         </p>
       </Vortex>
     </div>
