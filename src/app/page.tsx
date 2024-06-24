@@ -9,6 +9,7 @@ import { GoogleGeminiEffectDemo } from "./components/Connect";
 import { VortexDemo } from "./components/VortexComp";
 import Pricing from "./components/Pricing";
 import Link from "next/link";
+import { GlobeDemo } from "./components/Myglobe";
 
 export default function Home() {
   return (
@@ -27,14 +28,14 @@ export default function Home() {
           ></path>
         </svg>
       </Link>
-      <Hero />
-      <About />
       <GoogleGeminiEffectDemo />
       <Feature />
       <VortexDemo />
+      <About />
       <Pricing />
 
       <Howto />
+      <GlobeDemo />
       <Footer />
     </main>
   );
